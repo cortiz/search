@@ -10,8 +10,7 @@
     on classpath and enabled automatically -->
     <context:annotation-config/>
     <context:property-placeholder file-encoding="UTF-8" />
-    <context:annotation-config/>
-    
+
     <bean id="crafter.solrClient" class="org.apache.solr.client.solrj.impl.HttpSolrClient">
         <constructor-arg value="${search.main.solr.server.url}"/>
     </bean>

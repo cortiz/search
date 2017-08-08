@@ -24,7 +24,7 @@ search:
                 defaultInstanceDir: ''
                 defaultSchemaName: ''
             delete:
-                xml:
+                xml:s
                     query: id:"%1$s" OR parentId:"%1$s"
                     regex: .*\.xml$
             document:
